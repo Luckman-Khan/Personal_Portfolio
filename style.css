@@ -56,12 +56,12 @@ body {
     text-decoration: none;
 }
 
-/* Hover State */
+
 .social-icon:hover {
-    color: #000; /* Darkens the icon */
-    border-color: #38bdf8; /* Uses your cyan accent color */
-    background-color: rgba(56, 189, 248, 0.05); /* Subtle cyan tint */
-    transform: translateY(-4px); /* Slight lift effect */
+    color: #000; 
+    border-color: #38bdf8; 
+    background-color: rgba(56, 189, 248, 0.05); 
+    transform: translateY(-4px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
@@ -70,7 +70,7 @@ body {
     height: 20px;
 }
 
-/* Dark Mode adjustment if needed */
+
 body.dark .social-icon {
     border-color: #3f3f3f;
     color: #94a3b8;
@@ -112,7 +112,7 @@ body.dark .social-icon:hover {
     color: var(--primary);
 }
 
-/* Hero Section */
+
 .hero {
     padding: 10rem 0 5rem;
     text-align: center;
@@ -131,7 +131,6 @@ body.dark .social-icon:hover {
     margin-bottom: 2rem;
 }
 
-/* Section Common */
 .section {
     padding: 6rem 0;
 }
@@ -181,11 +180,11 @@ body.dark .social-icon:hover {
     color: #1a1a1a;
 }
 
-/* Rectangle Box (Pill) Styling */
+
 .skill-items {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    gap: 10px;      /* Spacing between the boxes */
+    flex-wrap: wrap; 
+    gap: 10px;      
     list-style: none;
     padding: 0;
     margin-bottom:1rem;
@@ -195,9 +194,9 @@ body.dark .social-icon:hover {
     display: flex;
     align-items: center;
     padding: 6px 14px;
-    background-color: #f3f4f6; /* Light gray background */
-    border: 1px solid #e5e7eb;  /* Subtle border */
-    border-radius: 6px;         /* Rounded corners for rectangle look */
+    background-color: #f3f4f6; 
+    border: 1px solid #e5e7eb;  
+    border-radius: 6px;         
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     color: #374151;
@@ -205,10 +204,9 @@ body.dark .social-icon:hover {
     cursor: default;
 }
 
-/* Hover Effect to match your cyan accent */
 .skill-items li:hover {
     background-color: #fff;
-    border-color: var(--primary); /* Cyan accent color */
+    border-color: var(--primary); 
     color: var(--primary);
     transform: translateY(-2px);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -226,16 +224,16 @@ body.dark .social-icon:hover {
     }
 }
 
-/* Project Card Design */
+
 
 #projects .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Forces exactly 2 items per row */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 2rem;
     margin-top: 2rem;
 }
 
-/* Ensure responsiveness: Switch to 1 column on tablets and mobile */
+
 @media (max-width: 992px) {
     #projects .grid {
         grid-template-columns: 1fr;
@@ -285,7 +283,7 @@ body.dark .social-icon:hover {
     margin-bottom: 0.5rem;
 }
 
-/* Tech Tags Styling */
+
 .tags {
     display: flex;
     flex-direction: row;
@@ -305,7 +303,7 @@ body.dark .social-icon:hover {
     letter-spacing: normal;
 }
 
-/* Footer & Link Styling */
+
 .project-footer {
     display: flex;
     justify-content: flex-start;
@@ -354,7 +352,7 @@ body.dark .social-icon:hover {
     opacity: 0.8;
 }
 
-/* Animations */
+
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -376,7 +374,7 @@ body.dark .social-icon:hover {
     .hero-title { font-size: 2.5rem; }
 }
 
-/* Achievements Timeline / Cards */
+
 .timeline {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
