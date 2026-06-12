@@ -386,6 +386,7 @@ body:has(.theme-toggle-input:checked) .theme-toggle .icon-moon {
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px var(--shadow-card);
+    border-color: var(--primary);
 }
 
 .project-content {
@@ -536,6 +537,7 @@ body:has(.theme-toggle-input:checked) .theme-toggle .icon-moon {
 .timeline .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px var(--shadow-card);
+    border-color: var(--primary);
 }
 
 .timeline .card h3 {
